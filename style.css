@@ -14,8 +14,23 @@ body {
 .players {
   display: flex;
   justify-content: space-around;
-  margin-top: 40px;
+  margin-top: 20px;
 }
+
+@media (max-width: 600px) {
+  .players{
+    display: list-item;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  #B {
+    margin-top: 20px;
+  }
+}
+
+
 
 #btna{
   box-shadow:5px 5px 5px 5px rgb(112, 138, 139);
@@ -27,19 +42,12 @@ body {
   background-color: rgb(77, 77, 102);
   color: rgb(26, 205, 211);
 }
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   button {
       width: 10px;
       font-size: 14px;
       padding: 8px 16px;
   }
-}
-#img1 {
-   position: absolute;
-}
-
-#img2 {
-  position: absolute;
 }
 
 .container {
