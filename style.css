@@ -1,17 +1,4 @@
 
-@media only screen and (max-width: 600px) {
-  .containers {
-      width: 100%;
-  }
-}
-
-@media only screen and (min-width: 601px) {
-  .containers {
-      width: 80%;
-      margin: 0 auto; 
-  }
-}
-
 * {
   padding: 0;
   box-sizing: border-box;
@@ -40,7 +27,13 @@ body {
   background-color: rgb(77, 77, 102);
   color: rgb(26, 205, 211);
 }
-
+@media (max-width: 600px) {
+  button {
+      width: 10px;
+      font-size: 14px;
+      padding: 8px 16px;
+  }
+}
 #img1 {
    position: absolute;
 }
@@ -68,6 +61,8 @@ body {
   font-size: 30px;
 }
 h1{
+
+  text-align: center;
   margin-top:  20px; 
   margin-bottom: 40px;
   padding-top: 20px;
@@ -76,3 +71,6 @@ h1{
   background-color: rgb(27, 32, 112);
   color: rgb(250, 247, 247);
 }
+
+
+      
